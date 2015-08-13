@@ -5,6 +5,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
+ * 1. 可以用递归
+ * 2. BFS
  * Created by wzk on 15/8/13.
  */
 public class MaximumDepthOfBinaryTreeTest {
