@@ -12,7 +12,7 @@ public class NumberOfOneBits {
             if ((n & 1) == 1) {
                 r++;
             }
-            n = n >> 1;
+            n = n >>> 1;
         }
         return r;
     }
