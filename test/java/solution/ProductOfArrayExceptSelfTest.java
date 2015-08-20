@@ -7,7 +7,7 @@ import org.junit.Test;
  */
 public class ProductOfArrayExceptSelfTest {
 
-    int[] a = new int[]{1, 2, 3, 4}; 
+    int[] a = new int[]{1, 2, 3, 4};
 
     @Test
     public void test() {
