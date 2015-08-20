@@ -20,22 +20,26 @@ public class MaximumSubArray {
                 j--;
             }
         }
+        System.out.println(i + " " + j);
         if (i >= j) {
             res = nums[0];
             for (i = 0; i < nums.length; i++) {
                 res = Math.max(nums[i], res);
             }
         } else {
-            int tmp = nums[i];
-            for (; i < j; i++) {
+            int tmp = 0;
+            int last = nums[i];
+            for (; i <= j; i++) {
                 if (nums[i] > 0) {
-                    if (tmp > 0) {
-                        res += tmp;
-                    }
                     tmp = nums[i];
                 } else {
                     tmp += nums[i];
                 }
+                if (last < 0 && tmp > 0) {
+                    res += tmp;
+                }
+                last = nums[i];
+                System.out.println(i + ", " + tmp + ", " + res);
             }
         }
         return res;
