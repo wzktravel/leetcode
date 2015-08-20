@@ -7,7 +7,7 @@ import org.junit.Test;
  */
 public class MaximumSubArrayTest {
 
-    int[] a = new int[]{6, -2, -1, -2, 3};
+    int[] a = new int[]{-1, 2, 1, -2, 0, 2, 1, 1};
 
     @Test
     public void test() {
