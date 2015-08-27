@@ -1,8 +1,6 @@
 package solution2;
 
-import java.util.Queue;
 import java.util.Stack;
-import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * Created by wangzhengkun on 2015/8/21.
